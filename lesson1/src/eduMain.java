@@ -1,12 +1,13 @@
 public class eduMain {
     public static void main(String[] args) {
-        User student = new User.Builder()
+        User studentBeybitYeshimkul = new User.Builder()
                 .firstName("Beybit")
+                .number("87754002576")
                 .age(82)
-                .gender('L')
-                .email("loser_beyt=ba@geymail.com0")
-                .number("yo yo yo 1 4 8 3 to the 3 to the 6 to the 9 representing the ABQ\nWHAT UP BIAATCH")
+                .email("fsjhjfekjb@mail.ru")
+                .gender("Male")
+                .lastName("Yeshimkul")
                 .build();
-        System.out.println(student.getFirstName());
+        studentBeybitYeshimkul.print();
     }
 }
