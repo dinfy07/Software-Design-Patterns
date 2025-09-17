@@ -1,4 +1,4 @@
-abstract class Hat {
+public abstract class Hat {
     String colorOfHat;
     int diametrOfHat;
     String typeOfHat;
@@ -12,32 +12,32 @@ abstract class Hat {
 
 class RedHat extends Hat {
     RedHat() {
-        colorOfHat = "Red";  // Инициализация цвета
-        diametrOfHat = 14;   // Инициализация диаметра
-        typeOfHat = "Cylindrical hat";  // Инициализация типа
+        colorOfHat = "Red";
+        diametrOfHat = 14;
+        typeOfHat = "Cylindrical hat";
     }
 }
 
 class BlueHat extends Hat {
     BlueHat() {
-        colorOfHat = "Blue";  // Инициализация цвета
-        diametrOfHat = 27;    // Инициализация диаметра
-        typeOfHat = "Cowboy hat";  // Инициализация типа
+        colorOfHat = "Blue";
+        diametrOfHat = 27;
+        typeOfHat = "Cowboy hat";
     }
 }
 
-abstract class HatFactory {
-    abstract Hat createHat();
+interface HatFactory {
+    Hat createHat();
 }
 
-class RedHatFactory extends HatFactory {
-    Hat createHat(){
+class RedHatFactory implements HatFactory {
+    public Hat createHat(){
         return new RedHat();
     }
 }
 
-class BlueHatFactory extends HatFactory {
-    Hat createHat(){
+class BlueHatFactory implements HatFactory {
+    public Hat createHat(){
         return new BlueHat();
     }
 }
