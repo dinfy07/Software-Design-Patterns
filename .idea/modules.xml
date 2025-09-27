@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HWSP.iml" filepath="$PROJECT_DIR$/HWSP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson2/lesson2.iml" filepath="$PROJECT_DIR$/lesson2/lesson2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adapterPattern/adapterPattern.iml" filepath="$PROJECT_DIR$/adapterPattern/adapterPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/factory/factory.iml" filepath="$PROJECT_DIR$/factory/factory.iml" />
     </modules>
   </component>
 </project>

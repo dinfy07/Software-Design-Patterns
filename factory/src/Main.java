@@ -5,7 +5,7 @@ public class Main {
         Hat blueHat = blueHatFactory.createHat();
         blueHat.informationOfHat();
 
-        HatFactory redHatFactory = new RedHatFactory();
+        HatFactory redHatFactory = new BlueHatFactory();
         Hat redHat = redHatFactory.createHat();
         redHat.informationOfHat();
 

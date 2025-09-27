@@ -56,7 +56,7 @@ class GTX implements GPU {
     }
 }
 
-class RTX implements GPU {
+class RTX implements GPU  {
     public void informationGPU() {
         System.out.println("GeForce RTX");
     }
